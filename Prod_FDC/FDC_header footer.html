@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ 
+<title>header footer</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">header footer</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=header-search-input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=header-search-input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=rz-search-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=i.icon-facebook-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=i.icon-pinterest-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=i.icon-twitter-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=i.icon-google-plus-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=i.icon-instagram</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=i.icon-envelope.icon-light</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=span.avatar.no-badge &gt; a &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.username</td>
+	<td>JKforHGTV</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Recipe Box</td>
+	<td></td>
+</tr>
+<!--pull-down menu-->
+<tr>
+	<td>storeElementPositionLeft</td>
+	<td>css=h4</td>
+	<td>leftPoint</td>
+</tr>
+<tr>
+	<td>storeElementPositionTop</td>
+	<td>css=h4</td>
+	<td>topPoint</td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>css=h4, (${leftPoint}, ${topPoint}) </td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=exact:Looking for More?</td>
+	<td>exact:Looking for More?</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=exact:Looking for More?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.state-in &gt; p</td>
+	<td>Join our newsletter to receive more recipe ideas each week.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Sign Up')])[2]</td>
+	<td>Sign Up</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.dpdwn-mod &gt; h3</td>
+	<td>The Latest</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=exact:Find Something You Like?</td>
+	<td>exact:Find Something You Like?</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=All Holidays »</td>
+	<td></td>
+</tr>
+<!--Top recipe-->
+<tr>
+	<td>assertText</td>
+	<td>id=GH-NavTopRecipes</td>
+	<td>top recipes</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=GH-NavRecipeBox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.btn-red.nav_topRecipes &gt; div.dpdwn &gt; div.dpdwn-content &gt; div.dpdwn-col.dpdwn-col-list &gt; section.dpdwn-mod &gt; h3</td>
+	<td>Browse Recipes</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Thanksgiving Recipes</td>
+	<td>Thanksgiving Recipes</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=exact:Trending:</td>
+	<td>exact:Trending:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//a[@onclick='s_objectID=&quot;http://www.food.com/slideshow/best-holiday-desserts-300?oc=headerfav2_112813_1&quot;;return this.s_oc?this.s_oc(e):true']</td>
+	<td>exact:Top Holiday Treats.fdc-ui-dialog i[class^=&quot;icon-&quot;], .fdc-ui-dialog i[class*=&quot;icon-&quot;] { color: #00709b; cursor: pointer; font-size: 25px; -webkit-font-smoothing: antialiased !important; -moz-font-smoothing: antialiased !important; font-smoothing: antialiased !important; text-rendering: optimizelegibility; } .fdc-ui-dialog .icon-remove-sign { float: right; height: 25px; margin: 3px 7px 0px; width: 25px; }</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Santa's Favorite Cookies</td>
+	<td>Santa's Favorite Cookies</td>
+</tr>
+</tbody></table>
+</body>
+</html>
